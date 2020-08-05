@@ -34,6 +34,10 @@
 </template>
 
 <style>
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

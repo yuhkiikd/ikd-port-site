@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Header>Home</Header>
+    <p>これはtestコメントです。漢字</p>
   </div>
 </template>
 
