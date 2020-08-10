@@ -1,6 +1,6 @@
 <template>
-  <div class="contact">
-    <Header>Contact</Header>
+  <div class="portfolio">
+    <Header>portfolio</Header>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import Header from "@/components/Header.vue";
 
 export default {
-  name: "contact",
+  name: "portfolio",
   components: {
     Header,
   },

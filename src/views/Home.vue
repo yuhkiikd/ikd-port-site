@@ -1,17 +1,12 @@
 <template>
   <div class="home">
-    <Header>Home</Header>
-    <p>これはtestコメントです。漢字</p>
+    <h1 class="mb-5">
+      <span>H</span>ello
+      <span>W</span>orld!
+    </h1>
+    <p>
+      初めまして、Ikedaです。
+      <br />ここはIkedaのポートフォリオサイトです。
+    </p>
   </div>
 </template>
-
-<script>
-import Header from "@/components/Header.vue";
-
-export default {
-  name: "home",
-  components: {
-    Header,
-  },
-};
-</script>

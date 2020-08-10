@@ -40,9 +40,9 @@ const routes = [
     component: () => import('../views/Tools.vue')
   },
   {
-    path: '/work_history',
-    name: 'WorkHistory',
-    component: () => import('../views/WorkHistory.vue')
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: () => import('../views/Portfolio.vue')
   },
   {
     path: '/contact',

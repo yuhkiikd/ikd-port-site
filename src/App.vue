@@ -1,34 +1,19 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
-      <container>
-        <row>
-          <div id="navbarSupportedContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <router-link class="text-white nav-link px-md-4" to="/">Home</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="text-white nav-link px-md-4" to="/introduction">Introduction</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="text-white nav-link px-md-4" to="/languages">Languages</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="text-white nav-link px-md-4" to="/tools">Tools</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="text-white nav-link px-md-4" to="/work_history">Work history</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="text-white nav-link px-md-4" to="/contact">Contact</router-link>
-              </li>
-            </ul>
-          </div>
-        </row>
-      </container>
-    </nav>
-
+    <b-navbar toggleable="sm" type="dark" class="mb-3 bg-dark">
+      <b-navbar-brand href="#"></b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse is-nav id="nav-collapse" class="justify-content-center navbar-expand-sm">
+        <b-navbar-nav class="navbar-nav mx-auto text-right">
+          <b-nav-item to="/" exact-active-class="active" class="px-md-4 nav-link">Home</b-nav-item>
+          <b-nav-item to="/introduction" exact-active-class="active" class="px-md-4 nav-link">Introduction</b-nav-item>
+          <b-nav-item to="/languages" exact-active-class="active" class="px-md-4 nav-link">Langueges</b-nav-item>
+          <b-nav-item to="/tools" exact-active-class="active" class="px-md-4 nav-link">Tools</b-nav-item>
+          <b-nav-item to="/portfolio" exact-active-class="active" class="px-md-4 nav-link">Portfolio</b-nav-item>
+          <b-nav-item to="/contact" exact-active-class="active" class="px-md-4 nav-link">Contact</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
     <router-view />
   </div>
 </template>
