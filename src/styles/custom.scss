@@ -1,6 +1,15 @@
 .home {
   h1{
-    padding-top:250px;
+    padding-top:10rem;
     font-size:4rem;
+  }
+}
+
+@media (max-width: 544px) {
+  .home {
+    h1{
+      padding-top:5rem;
+      font-size:4rem;
+    }
   }
 }
