@@ -37,7 +37,7 @@
         <b-col cols="sm-9" class="label-content-ruby label-ribbon text-left py-4">
           <p class="mb-0">
             ・経験年数：1年<br>
-            ・フレームワーク：Vue、jQuery
+            ・フレームワーク：Vue、jQuery<br>
             ・本サイトをVue.cliで制作しております。<br>
           </p>
         </b-col>
