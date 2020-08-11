@@ -1,6 +1,24 @@
 <template>
   <div class="languages">
     <Header>Languages</Header>
+    <b-container class="bv-example-row">
+      <b-row class="justify-content-md-center mb-2">
+        <b-col cols="sm-3" class="label-title-html py-4 text-white">Html</b-col>
+        <b-col cols="sm-9" class="label-content-html py-4 bg-light">説明</b-col>
+      </b-row>
+      <b-row class="justify-content-md-center mb-2">
+        <b-col cols="sm-3" class="label-title-css py-4 text-white">CSS</b-col>
+        <b-col cols="sm-9" class="label-content-css py-4 bg-light">説明</b-col>
+      </b-row>
+      <b-row class="justify-content-md-center mb-2">
+        <b-col cols="sm-3" class="label-title-js py-4">JavaScript</b-col>
+        <b-col cols="sm-9" class="label-content-js py-4 bg-light">説明</b-col>
+      </b-row>
+      <b-row class="justify-content-md-center">
+        <b-col cols="sm-3" class="label-title-ruby py-4 text-white">Ruby</b-col>
+        <b-col cols="sm-9" class="label-content-ruby py-4 bg-light">説明</b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 

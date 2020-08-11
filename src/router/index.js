@@ -9,7 +9,6 @@ Vue.use(BootstrapVue) // added
 import 'bootstrap/dist/css/bootstrap.css' // added
 import 'bootstrap-vue/dist/bootstrap-vue.css' // added
 
-
 const routes = [
   {
     path: '/',
