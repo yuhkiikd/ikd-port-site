@@ -2,16 +2,32 @@
   background-color: #e34c26;
 }
 
+.label-content-html {
+  background-color: #e35c26;
+}
+
 .label-title-css {
   background-color: #563d7c;
+}
+
+.label-content-css {
+  background-color: #564d7c;
 }
 
 .label-title-js {
   background-color: #f1e05a;
 }
 
+.label-content-js {
+  background-color: #f1f05a;
+}
+
 .label-title-ruby {
   background-color: #701516;
+}
+
+.label-content-ruby {
+  background-color: #702516;
 }
 
 .home {
@@ -30,12 +46,12 @@ h1.compile-hader {
 }
 
 @media (min-width: 576px) {
-  .explanation {
+  .label-ribbon {
     position:relative;
     left: 0.3rem;
   }
 
-  .explanation::before {
+  .label-ribbon::before {
     content: "";
     position: absolute;
     top: 0;
