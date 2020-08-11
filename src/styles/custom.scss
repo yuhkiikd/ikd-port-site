@@ -51,83 +51,13 @@ h1.compile-hader {
     left: 0.3rem;
   }
 
-  .label-ribbon::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 0;
-    left: 0px;
-    height: 0;
-    border-top: 2.25rem solid transparent;
-    border-right: 0 solid transparent;
-    border-bottom: 2.25rem solid transparent;
-    border-left: 2rem solid #fff;
-    z-index: 1;
-  }
-
-  .label-title-html::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 0;
-    right: -2rem;
-    height: 0;
-    border-top: 2.25rem solid transparent;
-    border-right: 0 solid transparent;
-    border-bottom: 2.25rem solid transparent;
-    border-left: 2rem solid #e34c26;
-    z-index: 2;
-  }
-
-  .label-title-css::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 0;
-    right: -2rem;
-    height: 0;
-    border-top: 2.25rem solid transparent;
-    border-right: 0 solid transparent;
-    border-bottom: 2.25rem solid transparent;
-    border-left: 2rem solid #563d7c;
-    z-index: 2;
-  }
-
-  .label-title-js::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 0;
-    right: -2rem;
-    height: 0;
-    border-top: 2.25rem solid transparent;
-    border-right: 0 solid transparent;
-    border-bottom: 2.25rem solid transparent;
-    border-left: 2rem solid #f1e05a;
-    z-index: 2;
-  }
-
-  .label-title-ruby::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 0;
-    right: -2rem;
-    height: 0;
-    border-top: 2.25rem solid transparent;
-    border-right: 0 solid transparent;
-    border-bottom: 2.25rem solid transparent;
-    border-left: 2rem solid #701516;
-    z-index: 2;
-  }
 }
 
 @media (max-width: 575px) {
   .home {
     h1{
-      padding-top:5rem;
-      font-size:4rem;
+      padding-top: 5rem;
+      font-size: 4rem;
     }
   }
 }
-
