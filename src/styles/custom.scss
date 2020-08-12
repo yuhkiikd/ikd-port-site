@@ -1,3 +1,13 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  padding-bottom: 100px;
+}
+
 .label-content {
   background-color: #ddd;
 }
@@ -56,6 +66,19 @@ h1.compile-hader {
 
 .label-title {
   position: relative;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-top:20px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
 
 @media (min-width: 576px) {

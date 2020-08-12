@@ -1,23 +1,30 @@
 <template>
-  <header>
-    <div id="app">
-      <b-navbar toggleable="sm" type="dark" class="mb-3 bg-dark">
-        <b-navbar-brand href="#"></b-navbar-brand>
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-collapse is-nav id="nav-collapse" class="justify-content-center navbar-expand-sm">
-          <b-navbar-nav class="navbar-nav mx-auto text-right">
-            <b-nav-item to="/" exact-active-class="active" class="px-md-4 nav-link">Home</b-nav-item>
-            <b-nav-item to="/introduction" exact-active-class="active" class="px-md-4 nav-link">Introduction</b-nav-item>
-            <b-nav-item to="/languages" exact-active-class="active" class="px-md-4 nav-link">Langueges</b-nav-item>
-            <b-nav-item to="/tools" exact-active-class="active" class="px-md-4 nav-link">Tools</b-nav-item>
-            <b-nav-item to="/portfolio" exact-active-class="active" class="px-md-4 nav-link">Portfolio</b-nav-item>
-            <b-nav-item to="/contact" exact-active-class="active" class="px-md-4 nav-link">Contact</b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
-      <router-view />
+  <div>
+    <header>
+      <div id="app">
+        <b-navbar toggleable="sm" type="dark" class="mb-3 bg-dark">
+          <b-navbar-brand href="#"></b-navbar-brand>
+          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+          <b-collapse is-nav id="nav-collapse" class="justify-content-center navbar-expand-sm">
+            <b-navbar-nav class="navbar-nav mx-auto text-right">
+              <b-nav-item to="/" exact-active-class="active" class="px-md-4 nav-link">Home</b-nav-item>
+              <b-nav-item to="/introduction" exact-active-class="active" class="px-md-4 nav-link">Introduction</b-nav-item>
+              <b-nav-item to="/languages" exact-active-class="active" class="px-md-4 nav-link">Langueges</b-nav-item>
+              <b-nav-item to="/tools" exact-active-class="active" class="px-md-4 nav-link">Tools</b-nav-item>
+              <b-nav-item to="/portfolio" exact-active-class="active" class="px-md-4 nav-link">Portfolio</b-nav-item>
+              <b-nav-item to="/contact" exact-active-class="active" class="px-md-4 nav-link">Contact</b-nav-item>
+            </b-navbar-nav>
+          </b-collapse>
+        </b-navbar>
+      </div>
+    </header>
+    <div class="container text-center">
+    <router-view />
     </div>
-  </header>
+    <Footer>
+      &copy; 2020 ikeda-port-site
+    </Footer>
+  </div>
 </template>
 
 <style>
@@ -46,3 +53,14 @@
   color: #42b983;
 }
 </style>
+
+<script>
+import Footer from "@/components/Footer.vue";
+
+export default {
+  name: "app",
+  components: {
+    Footer,
+  },
+};
+</script>
