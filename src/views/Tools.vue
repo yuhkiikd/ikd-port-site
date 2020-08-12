@@ -2,7 +2,7 @@
   <div class="tools">
     <Header>Tools</Header>
     <b-container class="bv-example-row container-fluid">
-      <b-row class="justify-content-md-center mb-2">
+      <b-row class="justify-content-md-center mb-3">
         <b-col cols="sm-3" class="label-title-psd py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/adobe-photoshop.png" alt="Photoshop" title="Photoshop"></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
@@ -12,7 +12,7 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="justify-content-md-center mb-2">
+      <b-row class="justify-content-md-center mb-3">
         <b-col cols="sm-3" class="label-title-ai py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/adobe-illustrator.png" alt="illustrator" title="illustrator"></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
@@ -22,7 +22,7 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="justify-content-md-center mb-2">
+      <b-row class="justify-content-md-center mb-3">
         <b-col cols="sm-3" class="label-title-fw py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/adobe-fireworks.png" alt="Fireworks" title="Fireworks"></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
@@ -32,7 +32,7 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="justify-content-md-center mb-2">
+      <b-row class="justify-content-md-center mb-3">
         <b-col cols="sm-3" class="label-title-access py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/microsoft-access-2019.png" alt="Access" title="Access"></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
@@ -42,7 +42,7 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="justify-content-md-center mb-2">
+      <b-row class="justify-content-md-center mb-3">
         <b-col cols="sm-3" class="label-title-excel py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/ms-excel.png" alt="Excel" title="Excel"></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
@@ -52,7 +52,7 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="justify-content-md-center mb-2">
+      <b-row class="justify-content-md-center mb-3">
         <b-col cols="sm-3" class="label-title-x py-1 d-flex justify-content-center align-items-center"><img src="../assets/xmind.png" alt="XMind" title="XMind"></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
