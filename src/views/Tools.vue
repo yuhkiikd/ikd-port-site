@@ -62,16 +62,6 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="justify-content-md-center mb-3">
-        <b-col cols="sm-3" class="label-title-x py-1 d-flex justify-content-center align-items-center"><img src="../assets/xmind.png" alt="XMind" title="XMind"></b-col>
-        <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
-          <p class="mb-0">
-            ・年数：0.5年<br>
-            ・使用内容：サイト分析<br>
-            ・主に他サイトの調査、分析に使用しております。
-          </p>
-        </b-col>
-      </b-row>
     </b-container>
   </div>
 </template>
