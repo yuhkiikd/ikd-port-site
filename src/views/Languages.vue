@@ -26,9 +26,9 @@
         <b-col cols="sm-3" class="label-title-js py-3 d-flex justify-content-center align-items-center">JavaScript</b-col>
         <b-col cols="sm-9" class="label-content-js label-ribbon text-left py-4">
           <p class="mb-0">
-            ・経験年数：1.5年<br>
-            ・フレームワーク：Ruby on rails<br>
-            ・DIVE INTO CODEというスクールでご教示頂きました。基本的な仕組みは理解しております。
+            ・経験年数：1年<br>
+            ・フレームワーク：Vue、jQuery<br>
+            ・本サイトをVue.cliで制作しております。<br>
           </p>
         </b-col>
       </b-row>
@@ -36,9 +36,9 @@
         <b-col cols="sm-3" class="label-title-ruby py-3 d-flex justify-content-center align-items-center">Ruby</b-col>
         <b-col cols="sm-9" class="label-content-ruby label-ribbon text-left py-4">
           <p class="mb-0">
-            ・経験年数：1年<br>
-            ・フレームワーク：Vue、jQuery<br>
-            ・本サイトをVue.cliで制作しております。<br>
+            ・経験年数：1.5年<br>
+            ・フレームワーク：Ruby on rails<br>
+            ・DIVE INTO CODEというスクールでご教示頂きました。基本的な仕組みは理解しております。
           </p>
         </b-col>
       </b-row>
