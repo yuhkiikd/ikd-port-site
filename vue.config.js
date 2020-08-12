@@ -7,5 +7,11 @@ module.exports = {
         path.resolve(__dirname, './src/styles/*.scss'),
       ]
     }
+  },
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      title: 'ikeda-port-site'
+    }
   }
 }
