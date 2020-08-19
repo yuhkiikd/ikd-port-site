@@ -1,5 +1,9 @@
 <template>
   <div>
+    <v-app>
+      <Loading v-show="loading"></Loading>
+      <Home v-show="!loading"></Home>
+    </v-app>
     <header>
       <div id="app">
         <b-navbar toggleable="sm" type="dark" class="mb-3 bg-dark">
@@ -55,6 +59,7 @@
 </style>
 
 <script>
+import Loading from '@/components/Loading'
 import Footer from "@/components/Footer.vue";
 import "@/styles/custom.scss";
 
@@ -62,7 +67,18 @@ import "@/styles/custom.scss";
 export default {
   name: "app",
   components: {
+    Loading,
     Footer,
+  },
+  data() {
+    return {
+      loading: true,
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 1000);
   },
 };
 </script>

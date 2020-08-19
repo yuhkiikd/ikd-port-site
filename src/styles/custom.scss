@@ -55,9 +55,14 @@ body {
 
 .home {
   h1{
-    padding-top:10rem;
+    padding-top:5rem;
     font-size:4rem;
   }
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
 }
 
 h1.compile-hader {
