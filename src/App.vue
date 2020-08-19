@@ -2,7 +2,7 @@
   <div>
     <v-app>
       <Loading v-show="loading"></Loading>
-      <Home v-show="!loading"></Home>
+      <Home v-show="loading"></Home>
     </v-app>
     <header>
       <div id="app">
@@ -66,10 +66,6 @@ import "@/styles/custom.scss";
 
 export default {
   name: "app",
-  components: {
-    Loading,
-    Footer,
-  },
   data() {
     return {
       loading: true,
@@ -79,6 +75,10 @@ export default {
     setTimeout(() => {
       this.loading = false;
     }, 2000);
+  },
+  components: {
+    Loading,
+    Footer,
   },
 };
 </script>
