@@ -56,6 +56,8 @@
 
 <script>
 import Footer from "@/components/Footer.vue";
+import "@/styles/custom.scss";
+
 
 export default {
   name: "app",
