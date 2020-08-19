@@ -7,7 +7,7 @@
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-2">
           <p class="mb-0">
             <ul class="mb-0 list-group list-group-flush">
-              <li class="list-group-item">勤怠管理アプリ（Ruby on Rails、AWS）<br>【<a href="http://52.197.221.44/users/sign_in" target="_blank">リンク</a>】【<a href="https://github.com/yuhkiikd/divepostapp" target="_blank">github</a>】</li>
+              <li class="list-group-item">勤怠管理アプリ（Ruby on Rails、AWS）<br>【<a href="http://52.197.221.44/users/sign_in" target="_blank">リンク</a>】【<a href="https://github.com/yuhkiikd/timecard" target="_blank">github</a>】</li>
               <li class="list-group-item">【サンプル用アカウント】<br>メール：admin@example.com<br>パスワード：hogehoge</li>
               <li class="list-group-item">制作期間：約1ヶ月</li>
               <li class="list-group-item">Ruby on Railsを使用した勤怠管理webアプリです。出勤状態、残業時間をグラフで可視化する機能を付けて業務改善に役立てる形にしました。勉強も兼ねてデプロイ先はAWSを使用しています。</li>
