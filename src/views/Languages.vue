@@ -3,8 +3,8 @@
     <Header>Languages</Header>
     <b-container class="bv-example-row container-fluid">
       <b-row class="justify-content-md-center mb-3">
-        <b-col cols="sm-3" class="label-title-html py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/html-filetype.png" alt="HTML" title="HTML"><img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" title="HTML5"></b-col>
-        <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
+        <b-col cols="sm-4" class="label-title-html py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/html-filetype.png" alt="HTML" title="HTML"><img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" title="HTML5"></b-col>
+        <b-col cols="sm-8" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
             ・経験年数：10年以上<br>
             ・フレームワーク：Haml、Wordpress<br>
@@ -13,8 +13,8 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center mb-3">
-        <b-col cols="sm-3" class="label-title-css py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/css-filetype.png" alt="CSS" title="CSS"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" title="CSS3"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" title="Bootstrap"></b-col>
-        <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
+        <b-col cols="sm-4" class="label-title-css py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/css-filetype.png" alt="CSS" title="CSS"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" title="CSS3"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" title="Bootstrap"></b-col>
+        <b-col cols="sm-8" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
             ・経験年数：10年以上<br>
             ・フレームワーク：Bootstrap4<br>
@@ -23,8 +23,8 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center mb-3">
-        <b-col cols="sm-3" class="label-title-js py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" title="JavaScript"><img src="https://img.icons8.com/color/48/000000/vue-js.png" alt="Vue.js" title="Vue.js"><img src="../assets/jq.png" alt="jQuery" title="jQuery"></b-col>
-        <b-col cols="sm-9" class="label-content label-ribbon text-left py-4">
+        <b-col cols="sm-4" class="label-title-js py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" title="JavaScript"><img src="https://img.icons8.com/color/48/000000/vue-js.png" alt="Vue.js" title="Vue.js"><img src="../assets/jq.png" alt="jQuery" title="jQuery"></b-col>
+        <b-col cols="sm-8" class="label-content label-ribbon text-left py-4">
           <p class="mb-0">
             ・経験年数：1年<br>
             ・フレームワーク：Vue、jQuery<br>
@@ -33,8 +33,8 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center">
-        <b-col cols="sm-3" class="label-title-ruby py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Ruby" title="Ruby"><img src="../assets/rails.png" alt="Ruby on Rails" title="Ruby on Rails"></b-col>
-        <b-col cols="sm-9" class="label-content label-ribbon text-left py-4">
+        <b-col cols="sm-4" class="label-title-ruby py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Ruby" title="Ruby"><img src="../assets/rails.png" alt="Ruby on Rails" title="Ruby on Rails"></b-col>
+        <b-col cols="sm-8" class="label-content label-ribbon text-left py-4">
           <p class="mb-0">
             ・経験年数：1.5年<br>
             ・フレームワーク：Ruby on rails<br>

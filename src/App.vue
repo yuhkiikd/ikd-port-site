@@ -21,7 +21,7 @@
     <router-view />
     </div>
     <Footer>
-      &copy; 2020 ikeda-port-site
+      &copy; 2020 ikeda-port-site | <span class="small"><a href="https://icons8.jp/icons" target="_blank" class="text-white">icons by Icons8</a></span>
     </Footer>
   </div>
 </template>
