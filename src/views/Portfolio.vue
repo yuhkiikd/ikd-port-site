@@ -3,6 +3,19 @@
     <Header>Portfolio</Header>
     <b-container class="bv-example-row container-fluid">
       <b-row class="justify-content-md-center my-3">
+        <b-col cols="sm-3" class="label-title py-3 d-flex justify-content-center align-items-center"><a href="https://quiet-bayou-83350.herokuapp.com/"><img src="../assets/jbs.jpg" width="100%"></a></b-col>
+        <b-col cols="sm-9" class="label-content label-ribbon text-left py-md-2 py-sm-0">
+          <p class="mb-0">
+            <ul class="mb-0 list-group list-group-flush" height="100%">
+              <li class="list-group-item">エスプレッソ講座ランディングページ サンプル（Bootstrap4、heroku）<br>【<a href="https://quiet-bayou-83350.herokuapp.com/">リンク</a>】</li>
+              <li class="list-group-item">【basic認証】<br>ユーザー名：testlp<br>パスワード：sd7fsd3</li>
+              <li class="list-group-item">制作期間：約1週間</li>
+              <li class="list-group-item">実際の講座講師の方から、画像掲載の許可を頂いて作成。<br>Photoshopからデザインしております。</li>
+            </ul>
+          </p>
+        </b-col>
+      </b-row>
+      <b-row class="justify-content-md-center my-3">
         <b-col cols="sm-3" class="label-title py-3 d-flex justify-content-center align-items-center"><a href="https://ikd-port-site.herokuapp.com/"><img src="../assets/portsite.jpg" width="100%"></a></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-md-2 py-sm-0">
           <p class="mb-0">

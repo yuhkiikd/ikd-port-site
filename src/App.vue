@@ -8,7 +8,7 @@
           <b-collapse is-nav id="nav-collapse" class="justify-content-center navbar-expand-sm">
             <b-navbar-nav class="navbar-nav mx-auto text-right">
               <b-nav-item to="/" exact-active-class="active" class="px-md-4 nav-link">Home</b-nav-item>
-              <b-nav-item to="/languages" exact-active-class="active" class="px-md-4 nav-link">Langueges</b-nav-item>
+              <b-nav-item to="/languages" exact-active-class="active" class="px-md-4 nav-link">Languages</b-nav-item>
               <b-nav-item to="/tools" exact-active-class="active" class="px-md-4 nav-link">Tools</b-nav-item>
               <b-nav-item to="/portfolio" exact-active-class="active" class="px-md-4 nav-link">Portfolio</b-nav-item>
               <b-nav-item to="/contact" exact-active-class="active" class="px-md-4 nav-link">Contact</b-nav-item>

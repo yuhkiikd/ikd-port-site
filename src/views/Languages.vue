@@ -7,7 +7,7 @@
         <b-col cols="sm-8" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
             ・経験年数：10年以上<br>
-            ・フレームワーク：Haml、Wordpress<br>
+            ・フレームワーク：Haml<br>
             ・ダンススタジオ、イベント、飲食店等のWebサイト制作の経験があります。
           </p>
         </b-col>
