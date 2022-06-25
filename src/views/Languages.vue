@@ -26,7 +26,7 @@
         <b-col cols="sm-4" class="label-title-js py-1 d-flex justify-content-center align-items-center"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" title="JavaScript"><img src="https://img.icons8.com/color/48/000000/vue-js.png" alt="Vue.js" title="Vue.js"><img src="../assets/jq.png" alt="jQuery" title="jQuery"></b-col>
         <b-col cols="sm-8" class="label-content label-ribbon text-left py-4">
           <p class="mb-0">
-            ・経験年数：1年<br>
+            ・経験年数：2年<br>
             ・フレームワーク：Vue、jQuery<br>
             ・本サイトをVue.cliで制作しております。<br>
           </p>

@@ -17,10 +17,6 @@
           <td><a href="https://github.com/yuhkiikd" target="_blank">yuhkiikd</a></td>
         </tr>
         <tr>
-          <td>Twitter</td>
-          <td><a href="https://twitter.com/Ikeda11483669" target="_blank">@Ikeda11483669</a></td>
-        </tr>
-        <tr>
           <td>Favorite</td>
           <td>Coffee</td>
         </tr>
