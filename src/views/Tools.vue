@@ -23,7 +23,7 @@
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center mb-3">
-        <b-col cols="sm-3" class="label-title-ai py-1 d-flex justify-content-center align-items-center"><img src="@/assets/home-image.jpg" alt="xd"></b-col>
+        <b-col cols="sm-3" class="label-title-xd py-1 d-flex justify-content-center align-items-center"><img src="@/assets/xd.png" alt="xd"></b-col>
         <b-col cols="sm-9" class="label-content label-ribbon text-left py-3">
           <p class="mb-0">
             ・年数：0.5年<br>
